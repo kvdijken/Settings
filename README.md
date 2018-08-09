@@ -12,6 +12,12 @@
  * Developed 2018 by Koen van Dijken
 
 
+Main screen of the program, in this case a software defined radio
+
+![alt text](https://github.com/kvdijken/Settings/blob/master/Foto%2009-08-18%2013%2027%2006.jpg)
+
+The screen with the settings:
+
 ![alt text](https://github.com/kvdijken/Settings/blob/master/Foto%2009-08-18%2012%2051%2011.jpg)
 
 ![alt text](https://github.com/kvdijken/Settings/blob/master/Foto%2009-08-18%2012%2051%2020.jpg)
