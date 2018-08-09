@@ -11,6 +11,14 @@
  * 
  * Developed 2018 by Koen van Dijken
 
+
+![alt text](https://github.com/kvdijken/Settings/blob/master/Foto%2009-08-18%2012%2051%2011.jpg)
+
+![alt text](https://github.com/kvdijken/Settings/blob/master/Foto%2009-08-18%2012%2051%2020.jpg)
+
+![alt text](https://github.com/kvdijken/Settings/blob/master/Foto%2009-08-18%2012%2051%2026.jpg)
+
+
 The library builds an internal structure of settings and their allowed values. Building the internal structure is done by adding settings with calling createSetting(). A user program can trigger the editing of the values from a button or a rotary encoder. This can be done by calling settingsDisplayOn() and subsequently settingsUp() and settingsDown() to select the required setting. settingsUp() and settingsDown() are usually called from the main program on detection of a button push or a rotary encoder event. A call to settingsOK() will set the setting into edit mode. Then, settingsUp() and settingsDown() will change the value for the setting. A blue value indicates the current value for the setting, a red value is a value different from the current setting. If during setup of the library the parameter liveUpdate was true, during editing the callback function will be called to reflect the current new value. If liveUpdate = false, the new value will only be transmitted upon user acceptance of the new value by calling settingsOK().
 
 Values for the settings are stored as strings. As such, numerical values, as well as boolean or text values can be used.
