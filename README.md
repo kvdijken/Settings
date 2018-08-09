@@ -79,3 +79,9 @@ bool carrierFilterTapsChanged( Setting *setting ) {
   return result;
 }
 ```
+
+If the number of settings is larger than the number of lines on the screen, the library will take care of scrolling. 
+
+The maximum allowed number of settings is given upon initialisation of the library. 
+
+If during creation of the settings NULL is passed as the name for a setting, an empty line will be inserted. The allows grouping of the settings.
