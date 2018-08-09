@@ -85,3 +85,9 @@ If the number of settings is larger than the number of lines on the screen, the 
 The maximum allowed number of settings is given upon initialisation of the library. 
 
 If during creation of the settings NULL is passed as the name for a setting, an empty line will be inserted. The allows grouping of the settings.
+
+
+To be done:
+- speedup of the display in case of scrolling to a setting which is not yet on the screen (fast scrolling of ST7735 is possible?)
+- create an example program.
+- ...
